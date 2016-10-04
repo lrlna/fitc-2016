@@ -46,7 +46,7 @@ a {
 
 .remark-code, .remark-inline-code {
   font-family: 'Ubuntu Mono';
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2em;
 }
 
@@ -140,4 +140,8 @@ blockquote:before {
 .javascript {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 35px;
+}
+
+.twitter-img > img {
+    width: 80%;
 }

@@ -227,44 +227,90 @@
       ---
       class: middle, dark
 
-      # ![cool](./src/images/cool.png),&nbsp
+      # ![cool](./src/images/cool.png) .yellow-font[,]&nbsp
       #.yellow[so you want to write a command line module?]
 
       ---
-      class: middle
+      class: middle, dark
 
-      ## - building a tool to handle your API
-      --
+      .twitter-img[![_lrlna-what-clis](./src/images/lrlna-what-clis.png)]
 
-      ## - cron task
-      --
-
-      ## - reusable module to make your life easier
+      .citation[[https://twitter.com/_lrlna/status/763135592154660864](https://twitter.com/_lrlna/status/763135592154660864)]
 
       ---
-      class: center, middle
+      class: middle, dark
 
-      # .align-center[![robot](./src/images/robot.png) -------> bash?]
+      .twitter-img[![trott](./src/images/trott.png)]
 
-      ---
-      class: center, middle
-
-      # .align-center[![robot](./src/images/robot.png) -------> ruby?]
+      .citation[[https://twitter.com/trott/status/763145652368879616](https://twitter.com/trott/status/763145652368879616)]
 
       ---
-      class: center, middle
+      class: middle, dark
 
-      # .align-center[![robot](./src/images/robot.png) -------> perl?]
+      .twitter-img[![ceejbot](./src/images/ceejbot.png)]
+
+      .citation[[https://twitter.com/ceejbot/status/763140341620801537](https://twitter.com/ceejbot/status/763140341620801537)]
 
       ---
-      class: center, middle
+      class: middle, dark
 
-      # .align-center[![robot](./src/images/robot.png) -------> .yellow[node]]
+      .twitter-img[![rickycodes](./src/images/rickycodes.png)]
+
+      .citation[[https://twitter.com/rickycodes/status/763243646854565888](https://twitter.com/rickycodes/status/763243646854565888)]
+
+      ---
+      class: middle, dark
+
+      .twitter-img[![othiym23](./src/images/othiym23.png)]
+
+      .citation[[https://twitter.com/othiym23/status/763144318911512576](https://twitter.com/othiym23/status/763144318911512576)]
+
+      ---
+      class: middle, dark
+
+      .twitter-img[![evilchili](./src/images/evilchili.png)]
+
+      .citation[[https://twitter.com/evilchili/status/763172629477859329](https://twitter.com/evilchili/status/763172629477859329)]
+
+      ---
+      class: middle, dark
+
+      .twitter-img[![brianloveswords](./src/images/brianloveswords.png)]
+
+      .citation[[https://twitter.com/brianloveswords/status/763245592726401024](https://twitter.com/brianloveswords/status/763245592726401024)]
+
+      ---
+      class: dark
+
+      ---
+      class: center, middle, dark
+
+      # .align-center[![robot](./src/images/robot.png) .yellow-font[-------> bash?]]
+
+      ---
+      class: center, middle, dark
+
+      # .align-center[![robot](./src/images/robot.png) .yellow-font[-------> ruby?]]
+
+      ---
+      class: center, middle, dark
+
+      # .align-center[![robot](./src/images/robot.png) .yellow-font[-------> perl?]]
+
+      ---
+      class: center, middle, light
+
+      # .align-center[![robot](./src/images/robot.png) .brown-font[-------> node]]
 
       ---
       class: center, middle
 
       # .align-centre[![scream](./src/images/scream.png) argument parsing]
+
+      ---
+      class: center, middle, dark
+
+      # .yellow[.javascript[process.argv.slice(2)]]
 
       ---
       class: center, middle
@@ -273,20 +319,20 @@
       background-position: left
 
       ---
-      class: center, middle
+      class: center, middle, light
 
-      # .align-center[![robot](./src/images/robot.png) -------> .yellow[node]]
-
-      ---
-      class: middle
-      # .yellow-background[Irina's guide to interactivity&trade;]
-      ### .yellow[aka become CLI Pokemon Trainer]
+      # .align-center[![robot](./src/images/robot.png) .brown-font[------->node]]
 
       ---
-      class: middle
-      # .yellow-background[Level 1]
+      class: middle, light
+      # .brown[Irina's guide to interactivity&trade;]
+      ### .brown-font[aka level up your CLI skillz]
 
-      # .align-centre[![scream](./src/images/scream.png) argument parsing]
+      ---
+      class: middle, dark
+      # .yellow[Level 1]
+
+      # ![scream](./src/images/scream.png) .yellow-font[argument parsing]]]]
 
       ---
       class: bottom
@@ -311,14 +357,14 @@
       .citation[yargs.js.org]
 
       ---
-      class: middle
-      # .yellow-background[Irina's guide to interactivity&trade;]
-      ### .yellow[aka become CLI Pokemon Trainer]
+      class: middle, light
+      # .brown[Irina's guide to interactivity&trade;]
+      ### .brown-font[aka level up your CLI skillz]
 
       ---
-      class: middle
+      class: middle, light
 
-      # We use .yellow[options] on daily basis
+      # We use .brown[options] on daily basis
 
       --
       ```shell
@@ -326,13 +372,13 @@
       ```
 
       ---
-      class: middle
-      # .yellow-background[Level 2]
+      class: middle, dark
+      # .yellow[Level 2]
 
-      # Give your options .yellow[aliases]
+      # .yellow-font[Give your options] .yellow[aliases]
 
       ---
-      class: middle
+      class: middle, dark
       ```javascript
         var argv = require('yargs')
         .usage('Usage: $0 -n [string] -f [string]')
@@ -346,7 +392,7 @@
       .citation[https://www.npmjs.com/package/twitter-node-name]
 
       ---
-      class: middle
+      class: middle, dark
 
       ```shell
       twitter-node-name --name ira<2728>
@@ -359,10 +405,10 @@
       .citation[https://www.npmjs.com/package/twitter-node-name]
 
       ---
-      class: middle
-      # .yellow-background[Level 3]
+      class: middle, dark
+      # .yellow[Level 3]
 
-      # Set up .yellow[default] values
+      # .yellow-font[Set up] .yellow[default] .yellow-font[values]
 
       ---
       class: middle
@@ -378,14 +424,14 @@
       .citation[https://www.npmjs.com/package/wombatjs]
 
       ---
-      class: middle
-      # .yellow-background[Level 4]
+      class: middle, dark
+      # .yellow[Level 4]
 
-      # Provide a .yellow[help] menu
+      # .yellow-font[Provide a] .yellow[help] .yellow-font[menu]
       ![pray](./src/images/pray.png)
 
       ---
-      class: middle
+      class: middle, light
       ```javascript
       var argv = require('yargs')
          // all your options
@@ -394,7 +440,7 @@
       ```
 
       ---
-      class: middle
+      class: middle, light
       ```javascript
       Usage: twitter-node-name -n [string] -f [string]
 
@@ -408,14 +454,13 @@
       .citation[https://www.npmjs.com/package/twitter-node-name]
 
       ---
-      class: middle
-      # .yellow-background[Level 5]
+      class: middle, dark
+      # .yellow[Level 5]
 
-      # Get .yellow[input] from your users
-
+      # .yellow-font[Get] .yellow[input] .yellow-font[from your users]
 
       ---
-      class: middle
+      class: middle, light
       ```javascript
       prompt.start()
       var property = {
@@ -433,21 +478,21 @@
 
       ```
       ---
-      class: middle
+      class: middle, light
 
       ```bash
       prompt: Are you sure you want to overwrite: (yes)
       ```
 
       ---
-      class: middle
+      class: middle, light
 
-      # .align-center[wow p cool ![sparkles](./src/images/sparkles.png) prompt ![sparkles](./src/images/sparkles.png)]
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[prompt] ![sparkles](./src/images/sparkles.png)]
 
       .citation[https://www.npmjs.com/package/prompt]
 
       ---
-      class: middle
+      class: middle, light
       ```javascript
       // where setuprc is your questions file
       promzard(setuprc, function(err, data) {
@@ -461,51 +506,58 @@
       }
       ```
       ---
-      class: middle
+      class: middle, light
       ```bash
       Hey stranger, what shall you be called?: irina
       ```
 
       ---
-      class: middle
+      class: middle, light
 
-      # .align-center[wow p cool ![sparkles](./src/images/sparkles.png) prompt ![sparkles](./src/images/sparkles.png)]
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[prompt] ![sparkles](./src/images/sparkles.png)]
 
-      .citation[https://www.npmjs.com/package/promzard]
+      .citation[https://www.npmjs.com/package/prompt]
 
       ---
-      class: middle
-      # .yellow-background[Level 6]
+      class: middle, dark
+      # .yellow[Level 6]
 
-      # Why not use .yellow[commands] ?
+      # .yellow-font[Why not use] .yellow[commands] .yellow-font[?]
       ![sassyLady](./src/images/sassyLady.png)
 
       ---
-      class: middle
+      class: middle, light
 
-      # We can make options .yellow[descriptive], but they are not .yellow[*interactive*]
+      # .brown-font[We can make options] .brown[descriptive]
 
       ---
-      class: middle
+      class: middle, light
+
+      #.brown-font[but they are not] .brown[*interactive*]
+
+      ---
+      class: middle, light
 
       # user issues commands to the program
 
       ---
-      class: middle
+      class: middle, light
 
-      # user ~~issues commands to~~ interacts with the program
-
-      ---
-      class: middle
-
-      # .align-center[wow p cool ![sparkles](./src/images/sparkles.png) .yellow[commands] ![sparkles](./src/images/sparkles.png)]
+      # user ~~issues commands to~~ .brown[interact] with the program
 
       ---
-      class: middle
-      # .yellow[yargs] lets you build out command modules
+      class: middle, light
+
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[commands] ![sparkles](./src/images/sparkles.png)]
+
+      .citation[https://www.npmjs.com/package/prompt]
 
       ---
-      class: middle
+      class: middle, light
+      # .brown[yargs] .brown-font[lets you build out command modules]
+
+      ---
+      class: middle, light
       ```javascript
       yargs.command(require('text'))
         .help()
@@ -513,7 +565,7 @@
       ```
 
       ---
-      class: middle
+      class: middle, light
       ```javascript
       exports.command = 'text <contact> <message>'
       exports.describe = 'text message your contact'
@@ -530,55 +582,55 @@
       }
       ```
       ---
-      class: middle
-      # .yellow-background[Level 7]
+      class: middle, dark
+      # .yellow[Level 7]
 
-      # Just add .yellow[colour]
+      # .yellow-font[Just add] .yellow[colour]
       ![nailCare](./src/images/nail-care.png)
 
       ---
-      class: middle
+      class: middle, light
 
-      # .align-center[wow p cool ![sparkles](./src/images/sparkles.png) colour ![sparkles](./src/images/sparkles.png)]
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[colour] ![sparkles](./src/images/sparkles.png)]
 
       .citation[https://www.npmjs.com/package/cli-color]
 
       ---
-      class: middle
+      class: middle, light
 
       ```javascript
       clc.yellow(wombat + concatArgvs(argv._))
       ```
 
       ---
-      class: middle
+      class: middle, light
 
-      # .align-center[wow p cool ![sparkles](./src/images/sparkles.png) colour ![sparkles](./src/images/sparkles.png)]
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[colour] ![sparkles](./src/images/sparkles.png)]
 
       .citation[https://www.npmjs.com/package/chalk]
 
       ---
-      class: middle
+      class: middle, light
 
       ```javascript
       chalk.yellow(wombat + concatArgvs(argv._))
       ```
-      ---
-      class: middle
-      # .yellow-background[Level 8]
-
-      # Can we get the user to .yellow[interact] with the our program other than prompts?
 
       ---
-      class: middle
+      class: middle, dark
+      # .yellow[Level 8]
 
-      # .align-centre[wow p cool ![sparkles](./src/images/sparkles.png) inquirer ![sparkles](./src/images/sparkles.png)]
+      # .yellow-font[Can we get the user to] .yellow[interact] .yellow-font[with the program other than prompts?]
+
+      ---
+      class: middle, light
+
+      # .align-center[.brown[wow p cool] ![sparkles](./src/images/sparkles.png) .brown[inquirer] ![sparkles](./src/images/sparkles.png)]
 
       .citation[https://www.npmjs.com/package/inquirer]
 
       ---
-      class: middle
-      ### .align-centre[omg ![sparkles](./src/images/sparkles.png) prompt types ![sparkles](./src/images/sparkles.png)]
+      class: middle, light
       ```javascript
       var prompt = inquirer.createPromptModule();
       prompt({type: 'list', message: 'yourCoolQuestionPrompt' })
@@ -596,16 +648,15 @@
       # .brown[alt='magic']
 
       ---
-      class: middle
-      # .yellow-background[Be the CLI Pokemon trainers you want to be]
+      class: middle, dark
 
       ---
-      class: middle
+      class: middle, light
 
-      # .yellow-background[Make Command Line Interfaces Great Again]
+      # .brown[Get out there, and build command line interfaces]
 
       ---
-      class: center, middle
+      class: middle, dark
 
       # .big-one[.yellow[Thank you] ![sparkles](./src/images/sparkles.png)]
       ## .yellow[[@_lrlna](https://twitter.com/_lrlna)]
