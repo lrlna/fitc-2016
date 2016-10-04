@@ -4,7 +4,7 @@
     <title>Building Interactive npm Command Line Modules</title>
     <meta charset="utf-8">
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+      @import url(https://fonts.googleapis.com/css?family=Lora);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
     </style>
@@ -12,214 +12,181 @@
   </head>
   <body>
     <textarea id="source">
-      class: center, middle
-      # .big-one[![wave](./src/images/wave.png) &nbsp &nbsp &nbsp .yellow[FITC]]
+      class: middle, dark
+      # .big-one[.yellow[Building Interactive npm Command Line Applications]]
+
+      ### .yellow[i.e. hot take on CLIs]
 
       ---
-      class: center, middle
+      class: middle, dark, center
+      # .big-one[![wave](./src/images/wave.png) &nbsp &nbsp &nbsp .yellow[Web Unleashed]]
+
+      ---
+      class: middle, dark, center
 
       # .big-one[![sassyLady](./src/images/sassyLady.png) I am .yellow[[@_lrlna](https://twitter.com/_lrlna)]]
 
       ---
-      class: center, middle
-
-      # .small-media[.orange[Small Media Foundation] ![small media](./src/images/smallmedia.svg)]
-
-      ---
-      class: center, middle
-      # .big-one[.yellow[Building Interactive npm Command Line Applications]]
-
-      ## .yellow[i.e. hot take on CLIs]
-
-      ---
-      class: center, middle
-      # .align-centre[.yellow[I <3] ![linux](./src/images/penguin.png)]
-
-      ---
-      class: center, middle
-      # .align-centre[.yellow[4G of Ram] ![computer](./src/images/computer.png)]
-
-      ---
-      class: center, middle
-      # .align-centre[.yellow[I <3 CLIs]]
-
-      ---
       class: middle
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+
+      # .orange-border[![computer](./src/images/computer.png), &nbsp &nbsp ![team](./src/images/team.png)]
+
+      # .small-media[.orange-border[[Small Media Foundation](https://smallmedia.org.uk/)] ![small media](./src/images/smallmedia.svg)]
 
       ---
-      class: middle
-      ```bash
-      tar -xfv /path/to/file
-      ```
-      ### .yellow[where x === --get]
+      class: middle, center, dark
+
+      # ![canada](./src/images/canada.png)&nbsp ![rain](./src/images/rain.png) &nbsp .yellow-font[-->] &nbsp ![uk](./src/images/uk.png)&nbsp![rain](./src/images/rain.png)
 
       ---
-      class: middle
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      class: middle, dark, light
+      # .big-one[.brown[Building Interactive npm Command Line Applications]]
+
+      ### .yellow[i.e. hot take on CLIs]
+
+      ---
+      class: center, middle, light
+      # .align-centre[.brown[I <3]&nbsp![linux](./src/images/penguin.png)]
+
+      ---
+      class: center, middle, light
+      # .align-centre[.brown[4G of Ram]&nbsp&nbsp![computer](./src/images/computer.png)]
+
+      ---
+      class: center, middle, light
+      # .align-centre[.brown[I <3 CLIs]]
+
+      ---
+      class: middle, light
+      # .brown-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
+
+      ---
+      class: middle, light
+      # .brown-font[.javascript[tar -xfv /path/to/file]]
+      #### where x === --get
+
+      ---
+      class: middle, light
+      # .brown-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
+
       --
-      # .yellow[what Pokemon is this?]
+      # .yellow[lol wut?]
 
       ---
-      class: middle
+      class: middle, dark
       # .yellow[Monday]
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
+
       ---
-      class: middle
+      class: middle, dark
       # .yellow[Tuesday]
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
 
       ---
-      class: middle
+      class: middle, dark
       # .yellow[Wednesday]
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
 
       ---
-      class: middle
+      class: middle, dark
       # .yellow[Thursday]
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
 
       ---
-      class: center, middle
+      class: center, middle, light
 
       ![glasses](./src/images/glasses.png) ![crown](./src/images/crown.png) ![nailCare](./src/images/nail-care.png)
 
       ---
-      class: middle
-      # .yellow[Friday]
+      class: middle, light
+      # .brown[Friday]
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
+      # .brown-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
 
       ---
-      class: middle
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
-      # .yellow[what Pokemon is this?]
+      class: middle, dark
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
+
+      ## .yellow[lol wut?]
 
       ---
-      class: middle
+      class: middle, light
       # ![ok](./src/images/ok.png),&nbsp![cool](./src/images/cool.png)
-      # .yellow[so what's a command line application ?]
+      # .brown[so what's a command line application ?]
 
       ---
-      class: middle
+      class: middle, light
 
-      # .yellow[git]
-      ```bash
-      git rebase i veryCoolSHA
-      ```
+      # .brown[git]
+      # .brown-font[.javascript[git rebase i veryCoolSHA]]
 
       ---
-      class: middle
+      class: middle, light
 
-      # .yellow[npm]
-      ```bash
-      npm i coolModule@latest --save
-      ```
+      # .brown[npm]
+      # .brown-font[.javascript[npm i coolModule@latest --save]]
 
       ---
-      class: middle
+      class: middle, light
 
-      # .yellow[vagrant]
-      ```bash
-      vagrant halt processID
-      ```
+      # .brown[vagrant]
+      # .brown-font[.javascript[vagrant halt processID]]
 
       ---
-      class: middle
+      class: middle, light
+      background-image: url(./src/images/ls.gif)
+      background-size: cover
 
       # .yellow[ls]
-      ```bash
-      ls -al
-      ```
+      # .yellow-font[.javascript[ls -al]]
 
       ---
       class: middle
+      background-image: url(./src/images/cowsay.gif)
+      background-size: cover
 
       # .yellow[cow-say]
+      # .yellow-font[.javascript[cowsay hello web unleashed]]
       .citation[https://www.npmjs.com/package/cowsay]
-      ```bash
-       cowsay sup node summit
-       _________________
-       < sup node summit >
-       -----------------
-               \    ^__^
-                \   (oo)\_______
-                    (__)\       )\/\
-                        ||----w |
-                        ||     ||
-      ```
 
       ---
-      class: middle
+      class: middle, dark
 
       # .yellow[wombat]
+      # .yellow-font[.javascript[wombat hello web unleashed]]
       .citation[https://www.npmjs.com/package/wombatjs]
-      ```bash
-      wombat hello node summit
-
-                       ,.--"""--.._
-                     ."     .'      `-.
-                    ;      ;           ;
-                   '      ;             )
-                  /     '             . ;
-                 /     ;     `.        `;
-               ,.'     :         .     : )
-               ;|\'    :      `./|) \  ;/
-               ;| \"  -,-   "-./ |;  ).;
-               /\/              \/   );
-              :                 \    ;
-              :     _      _     ;   )
-              `.   \;\    /;/    ;  /
-                !    :   :     ,/  ;
-                 (`. : _ : ,/"   ;
-                  \\\`"^" ` :    ;
-                           (     )
-                      /     ////
-                   /
-                /
-        <----(hello node summmit)---->
-      ```
 
       ---
       class: middle
+      background-image: url(./src/images/wombatjs.gif)
+      background-size: cover
+
+      .citation[https://www.npmjs.com/package/wombatjs]
+
+      ---
+      class: middle, dark
       # ![ok](./src/images/ok.png),&nbsp![cool](./src/images/cool.png)
       # .yellow[so what's a command line application ?]
 
       ---
       class: middle
-      # .yellow-background[Command Line Interface is a means of interacting with a computer program where the user *issues commands to the program* in the form of successive lines of text.]
+      > Command Line Interface is a means of interacting with a computer program where the user *issues commands to the program* in the form of successive lines of text.
 
-      .citation[https://en.wikipedia.org/wiki/Command-line_interface]
-
-      ---
-      class: middle
-
-      # issues commands to the program
+      .blockquote-footer[[the internet](https://en.wikipedia.org/wiki/Command-line_interface)]
 
       ---
-      class: middle
+      class: middle, light
 
-      # ~~issues commands to~~ interacts with the program
+      # .brown-font[issues commands to the program]
+
+      ---
+      class: middle, light
+
+      # .brown-font[~~issues commands to~~ interacts with the program]
 
       ---
       class: middle
@@ -227,42 +194,38 @@
       # .yellow[Some] of us work quite a bit in terminal and command line setting
 
       ---
-      class: middle
+      class: middle, light
 
       # But not .yellow[everyone]
 
       ---
-      class: middle
+      class: middle, dark
 
-      ```bash
-      yourCoolCli -rgb global-status --latest -m
-      ```
-
-      # .yellow[what Pokemon is this?]
-      ---
-      class: middle
-
-      # .yellow[We care about user experience in the web, but not in our terminals]
+      # .yellow-font[.javascript[yourCoolCli -rgb global-status --latest -m]]
+      # .yellow[lol wut?]
 
       ---
-      class: middle
+      class: middle, light
 
-      # .yellow[let's fix it]
+      # .brown[We care about user experience in the web, but not in our terminals]
+
+      ---
+      class: middle, light
+
+      # .brown[let's fix it]
 
       ---
       class: bottom, center
       background-image: url(./src/images/excited-baby.gif)
       background-size: cover
 
-      # .yellow-background[Make Command Line Interfaces Great Again]
+      ---
+      class: middle, light
+      # .brown[Irina's guide to interactivity&trade;]
+      ### .brown-font[aka level up your CLI skillz]
 
       ---
-      class: middle
-      # .yellow-background[Irina's guide to interactivity&trade;]
-      ### .yellow[aka become CLI Pokemon Trainer]
-
-      ---
-      class: middle
+      class: middle, dark
 
       # ![cool](./src/images/cool.png),&nbsp
       #.yellow[so you want to write a command line module?]
@@ -626,8 +589,11 @@
       ```
 
       ---
-      background-image: url(./src/images/excited-baby.gif)
+      background-image: url(./src/images/magic.gif)
       background-size: cover
+      class: bottom, center 
+
+      # .brown[alt='magic']
 
       ---
       class: middle

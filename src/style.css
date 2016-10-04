@@ -1,6 +1,5 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
-  color: #17223C;
+  font-family: 'Lora', serif;
 }
 
 h1 {
@@ -8,9 +7,17 @@ h1 {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 900;
   color: #34000d;
+}
+
+.dark {
+  background-color: #34000d;
+}
+
+.light {
+  background-color: #fff200;
 }
 
 .remark-slide-content .big-one{
@@ -43,18 +50,42 @@ a {
   line-height: 1.2em;
 }
 
+.code-small < .remark-code {
+    font-size: 25px;
+    line-height: 1em;
+}
+
 .yellow {
-  border-bottom: 5px solid #fff200;
   display: inline;
+  background: #fff200;
+  box-shadow: 10px 0 0 #fff200, -10px 0 0 #fff200;
 }
 
 .yellow-background {
-  background-color: #fff200;
+  background: #fff200;
+  box-shadow: 10px 0 0 #fff200, -10px 0 0 #fff200;
   display: inline;
+}
+
+.yellow-font {
+  color: #fff200;
 }
 
 .orange {
   color: #de5116;
+}
+
+.brown {
+  color: #fff200;
+  background: #34000d;
+  box-shadow: 10px 0 0 #34000d, -10px 0 0 #34000d;
+}
+
+.brown-font {
+}
+
+.orange-border {
+  box-shadow: inset 0 -30px 0 #ec6f3b;
 }
 
 .purple {
@@ -63,10 +94,33 @@ a {
 }
 
 .citation {
-  border-bottom: 5px solid #fff200;
-  vertical-align: bottom;
+  background-color: #fff200;
   display: inline;
+  position: absolute;
+  bottom: 2em;
+  left: 4em;
+}
 
+blockquote {
+  quotes: "\201D""\201C""\2018""\2019";
+  font-size: 45px;
+  color: #34000d; 
+}
+
+blockquote:before {
+  position: absolute;
+  font-style: normal;
+  color: #fff200; 
+  content: open-quote;
+  font-size: 4em;
+  top: 0.3em;
+  margin-right: 0.4em;
+  margin-left: -0.4em;
+}
+
+.blockquote-footer, blockquote-footer > a {
+  box-shadow: inset 0 -10px 0 #B9EAEA;
+  float: right;
 }
 
 .align-centre {
@@ -83,6 +137,7 @@ a {
   line-height: 1.1;
 }
 
-img {
-    //height: 1em;
+.javascript {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 35px;
 }
